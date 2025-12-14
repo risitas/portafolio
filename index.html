@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Conversion Services</title>
+    <meta name="description"
+        content="I turn audio, images, and data into clear, professional text. Accurate, human-made text, ready to use.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">Text<span class="highlight">Master</span>.</a>
+            <ul class="nav-links">
+                <li><a href="#services" data-i18n="nav_services">Services</a></li>
+                <li><a href="#samples" data-i18n="nav_samples">Work Samples</a></li>
+                <li><a href="#why-me" data-i18n="nav_whyme">Why Me</a></li>
+                <li><button id="lang-toggle" class="nav-lang-btn">🇺🇸 EN</button></li>
+                <li><a href="#contact" class="btn-primary" data-i18n="nav_contact">Start a Project</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge" data-i18n="hero_badge">Professional Text Services</div>
+                <h1 data-i18n="hero_title">I turn audio, images, and data into <span class="gradient-text">clear,
+                        professional text.</span>
+                </h1>
+                <p data-i18n="hero_desc">Accurate, human-made text, ready to use for work, content or records.</p>
+                <p data-i18n="hero_intro"><strong>Hi, I’m Yosimar</strong>, the person behind TextMaster. I
+                    specialize in transforming audio, images and raw
+                    data into clean, organized and professional text that is easy to use.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary" data-i18n="btn_start">Start a Project</a>
+                    <a href="#samples" class="btn-secondary" data-i18n="btn_samples">View Work Samples</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="versatile_professional.png" alt="Transcription and Data Illustration"
+                        class="floating-image">
+                    <!-- Decorative elements -->
+                    <div class="float-card card-1">
+                        <i class="fas fa-check-circle"></i>
+                        <span>99% Accuracy</span>
+                    </div>
+                    <div class="float-card card-2">
+                        <i class="fas fa-bolt"></i>
+                        <span>Transcription in Progress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="serv_0_title">Services</h2>
+                <div class="underline"></div>
+                <p data-i18n="serv_0_desc">Comprehensive solutions for your information needs.</p>
+            </div>
+            <div class="services-grid">
+                <!-- 1 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-headphones"></i></div>
+                    <h3 data-i18n="serv_1_title">Transcription</h3>
+                    <p data-i18n="serv_1_desc">Audio & video to text with high accuracy.</p>
+                </div>
+                <!-- 2 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-file-image"></i></div>
+                    <h3 data-i18n="serv_2_title">Scan to Text</h3>
+                    <p data-i18n="serv_2_desc">Photo or scanned documents to editable text.</p>
+                </div>
+                <!-- 3 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-font"></i></div>
+                    <h3 data-i18n="serv_3_title">Image Transcription</h3>
+                    <p data-i18n="serv_3_desc">Extracting text from images.</p>
+                </div>
+                <!-- 4 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-keyboard"></i></div>
+                    <h3 data-i18n="serv_4_title">Data Entry</h3>
+                    <p data-i18n="serv_4_desc">Copy-paste tasks and spreadsheet management.</p>
+                </div>
+                <!-- 5 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-magic"></i></div>
+                    <h3 data-i18n="serv_5_title">Text Cleaning</h3>
+                    <p data-i18n="serv_5_desc">Proofreading, formatting, and organizing.</p>
+                </div>
+                <!-- 6 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-file-word"></i></div>
+                    <h3 data-i18n="serv_6_title">Flexible Delivery</h3>
+                    <p data-i18n="serv_6_desc">Word, PDF, or Plain Text formats.</p>
+                </div>
+                <!-- 7 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-cut"></i></div>
+                    <h3 data-i18n="serv_7_title">Filler Removal</h3>
+                    <p data-i18n="serv_7_desc">Optional removal of 'umms' and 'ahhs'.</p>
+                </div>
+                <!-- 8 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-closed-captioning"></i></div>
+                    <h3 data-i18n="serv_8_title">Subtitles (.SRT)</h3>
+                    <p data-i18n="serv_8_desc">Synchronized subtitle files for video.</p>
+                </div>
+                <!-- 9 -->
+                <div class="service-card glass">
+                    <div class="icon-box"><i class="fas fa-user-clock"></i></div>
+                    <h3 data-i18n="serv_9_title">Virtual Assistant</h3>
+                    <p data-i18n="serv_9_desc">Simple daily tasks and organization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="samples" class="section samples">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="samples_title">Work Samples</h2>
+                <div class="underline"></div>
+                <p data-i18n="samples_desc">Examples of my conversion work.</p>
+            </div>
+
+            <div class="samples-grid">
+                <!-- Sample 1: Audio to Text -->
+                <div class="sample-card glass">
+                    <h3 data-i18n="sample_1_title"><i class="fas fa-microphone"></i> 1. Audio Transcription</h3>
+                    <p data-i18n="sample_1_desc">Short interview with speaker labels.</p>
+                    <div class="comparison">
+                        <div class="before">
+                            <div class="audio-wave">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+                            <small data-i18n="sample_1_before">Audio File</small>
+                        </div>
+                        <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                        <div class="after">
+                            <div class="text-doc">
+                                <p data-i18n="sample_1_p1"><strong>Interviewer:</strong> Can you explain the process?
+                                </p>
+                                <p data-i18n="sample_1_p2"><strong>Expert:</strong> It starts with raw data analysis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample 2: Video to Text -->
+                <div class="sample-card glass">
+                    <h3 data-i18n="sample_2_title"><i class="fas fa-video"></i> 2. Video with Timestamps</h3>
+                    <p data-i18n="sample_2_desc">YouTube-style transcription.</p>
+                    <div class="comparison">
+                        <div class="before">
+                            <div class="video-placeholder"><i class="fas fa-play"></i></div>
+                            <small data-i18n="sample_2_before">Video Clip</small>
+                        </div>
+                        <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                        <div class="after">
+                            <div class="text-doc">
+                                <p data-i18n="sample_2_p1"><span class="highlight">[00:12]</span> Welcome to the
+                                    channel.</p>
+                                <p data-i18n="sample_2_p2"><span class="highlight">[00:15]</span> Today we discuss AI.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample 3: Image to Text -->
+                <div class="sample-card glass">
+                    <h3 data-i18n="sample_3_title"><i class="fas fa-image"></i> 3. Image to Text</h3>
+                    <p data-i18n="sample_3_desc">Clean text from scanned documents.</p>
+                    <div class="comparison">
+                        <div class="before">
+                            <div class="photo-placeholder"><i class="fas fa-file-image"></i></div>
+                            <small data-i18n="sample_3_before">Scan / IMG</small>
+                        </div>
+                        <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                        <div class="after">
+                            <div class="text-doc">
+                                <p data-i18n="sample_3_p1"><strong>INVOICE #1024</strong></p>
+                                <p data-i18n="sample_3_p2">Total Due: $500.00</p>
+                                <p data-i18n="sample_3_p3">Date: Dec 12, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample 4: Data Entry -->
+                <div class="sample-card glass">
+                    <h3 data-i18n="sample_4_title"><i class="fas fa-table"></i> 4. Data Entry</h3>
+                    <p data-i18n="sample_4_desc">PDF info to Spreadsheet table.</p>
+                    <div class="comparison">
+                        <div class="before">
+                            <div class="raw-text" data-i18n="sample_4_before">PDF List:<br>- Item A (Stock: 5)<br>- Item
+                                B (Stock: 2)</div>
+                        </div>
+                        <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                        <div class="after">
+                            <table class="micro-table">
+                                <tr>
+                                    <th data-i18n="sample_4_th1">Item</th>
+                                    <th data-i18n="sample_4_th2">Stock</th>
+                                </tr>
+                                <tr>
+                                    <td>Item A</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Item B</td>
+                                    <td>2</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample 5: Subtitles -->
+                <div class="sample-card glass">
+                    <h3 data-i18n="sample_5_title"><i class="fas fa-closed-captioning"></i> 5. Subtitles (.SRT)</h3>
+                    <p data-i18n="sample_5_desc">Synchronized caption file.</p>
+                    <div class="comparison">
+                        <div class="before">
+                            <div class="video-placeholder"><i class="fas fa-film"></i></div>
+                        </div>
+                        <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                        <div class="after">
+                            <div class="code-snippet" data-i18n="sample_5_code">
+                                1<br>00:00:01 --> 00:00:04<br>Hello everyone.<br><br>2<br>00:00:04 --> 00:00:06<br>Let's
+                                begin.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample 6: Text Cleaning -->
+                <div class="sample-card glass">
+                    <h3 data-i18n="sample_6_title"><i class="fas fa-broom"></i> 6. Text Cleaning</h3>
+                    <p data-i18n="sample_6_desc">Removing filler words & formatting.</p>
+                    <div class="comparison">
+                        <div class="before">
+                            <div class="raw-text" data-i18n="sample_6_before">
+                                So, um, like, the plan is... meant to represent, you know?
+                            </div>
+                        </div>
+                        <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                        <div class="after">
+                            <div class="text-doc">
+                                <p data-i18n="sample_6_p1">The plan is meant to represent the core idea.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="why-me" class="section why-me">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="whyme_title">Why Choose Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-check-double"></i></div>
+                    <h3 data-i18n="whyme_1_title">High Accuracy</h3>
+                    <p data-i18n="whyme_1_desc">Attention to detail and precision.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-comments"></i></div>
+                    <h3 data-i18n="whyme_2_title">Friendly Comms</h3>
+                    <p data-i18n="whyme_2_desc">Fast and clear communication.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    <h3 data-i18n="whyme_3_title">On-time Delivery</h3>
+                    <p data-i18n="whyme_3_desc">Reliable service you can count on.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-border-all"></i></div>
+                    <h3 data-i18n="whyme_4_title">Organized Results</h3>
+                    <p data-i18n="whyme_4_desc">Clean and easy to read output.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                    <h3 data-i18n="whyme_5_title">Professional</h3>
+                    <p data-i18n="whyme_5_desc">A reliable partner for your work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-wrapper glass">
+                <div class="contact-text">
+                    <h2 data-i18n="contact_title">Let's Work Together</h2>
+                    <p data-i18n="contact_desc">Send me a message to discuss your next project.</p>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-envelope"></i> yosiunic@gmail.com</li>
+                        <li data-i18n="contact_av"><i class="fas fa-check"></i> Available Now</li>
+                    </ul>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/xbjnqnga" method="POST">
+                    <div class="form-group">
+                        <label for="name" data-i18n="label_name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Name" data-i18n="label_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="label_email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" data-i18n="label_email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="label_message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="How can I help you?"
+                            data-i18n="label_message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary block" data-i18n="btn_send">Send Message</button>
+                </form>
+
+                <!-- Success Avatar (Hidden by default) -->
+                <div class="success-message" style="display: none;">
+                    <div class="avatar-box">
+                        <img src="C:/Users/Drask/.gemini/antigravity/brain/df6646c0-a79a-4353-acab-3e865c0005e5/uploaded_image_1765682059296.png"
+                            alt="Success Avatar">
+                        <div class="speech-bubble" data-i18n="msg_sent_bubble">¡Mensaje Enviado!</div>
+                    </div>
+                    <p data-i18n="msg_sent_desc">Gracias por contactarme. Responderé pronto.</p>
+                    <button id="reset-form-btn" class="btn-secondary">Enviar otro</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
