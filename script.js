@@ -7,7 +7,7 @@ const translations = {
         hero_badge: "Servicios Profesionales de Texto",
         hero_title: "Transformo audio, imágenes y datos en <span class='gradient-text'>texto claro, profesional y listo para usar.</span>",
         hero_desc: "Texto preciso, hecho por humanos, para trabajo, contenido y registros.",
-        hero_intro: "<strong>Hola, soy Yosimar</strong>, la persona detrás de TextMaster. Me especializo en transformar audio, imágenes y datos sin procesar en texto limpio, organizado y profesional, fácil de usar.",
+        hero_intro: "<strong>Hola, soy Yosimar</strong>, la persona detrás de YosiLab. Me especializo en transformar audio, imágenes y datos sin procesar en texto limpio, organizado y profesional, fácil de usar.",
         btn_start: "Iniciar Proyecto",
         btn_samples: "Ver Muestras",
         serv_0_title: "Servicios",
@@ -82,7 +82,7 @@ const translations = {
         btn_sent: "¡Mensaje Enviado!",
         msg_sent_bubble: "¡Mensaje Enviado!",
         msg_sent_desc: "Gracias por contactarme. Responderé pronto.",
-        footer_rights: "&copy; 2024 TextMaster. Todos los derechos reservados.",
+        footer_rights: "&copy; 2024 YosiLab. Todos los derechos reservados.",
         toggle_btn: "🇺🇸 EN" // Button text when curr lang is ES
     },
     en: {
@@ -93,7 +93,7 @@ const translations = {
         hero_badge: "Professional Text Services",
         hero_title: "I transform audio, images, and data into <span class='gradient-text'>clear, professional, ready-to-use text.</span>",
         hero_desc: "Accurate, human-made text for work, content and records.",
-        hero_intro: "<strong>Hi, I’m Yosimar</strong>, the person behind TextMaster. I specialize in transforming audio, images and raw data into clean, organized and professional text that is easy to use.",
+        hero_intro: "<strong>Hi, I’m Yosimar</strong>, the person behind YosiLab. I specialize in transforming audio, images and raw data into clean, organized and professional text that is easy to use.",
         btn_start: "Start a Project",
         btn_samples: "View Work Samples",
         serv_0_title: "Services",
@@ -168,7 +168,7 @@ const translations = {
         btn_sent: "Message Sent!",
         msg_sent_bubble: "Message Sent!",
         msg_sent_desc: "Thanks for reaching out. I'll reply soon.",
-        footer_rights: "&copy; 2024 TextMaster. All rights reserved.",
+        footer_rights: "&copy; 2024 YosiLab. All rights reserved.",
         toggle_btn: "🇲🇽 ES" // Button text when curr lang is EN
     }
 };
